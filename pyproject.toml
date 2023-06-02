@@ -27,7 +27,7 @@ dependencies = [
     "matplotlib",
     "tk",
     "imageio",
-    "xbout",
+    "xbout", "mypy~=1.3.0",
 ]
 
 [project.optional-dependencies]
