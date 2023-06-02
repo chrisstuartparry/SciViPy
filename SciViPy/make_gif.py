@@ -3,9 +3,9 @@ This project, including this file, is licensed under MPL-2.0.
 """
 
 from pathlib import Path
+from tkinter.filedialog import askdirectory
 
 import imageio.v2 as imageio
-from tkinter.filedialog import askdirectory
 
 
 def make_gif(dirname: Path, duration: int = 2, gif_name: str = "Jorek.gif"):
